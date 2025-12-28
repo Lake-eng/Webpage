@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+.red-x{
+    color: red;
+    text-decoration: none;
+}
+
+.Title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: black;
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+    color: white;
+    z-index: 10;
+}
+
+.Title h1{
+    position: absolute;
+    left: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.Title img{
+    position: absolute;
+    left: 10px;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+
+.Reviews{
+    position: absolute;
+    left: 300px;
+    top: 31px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  
+}
+
+
+.Games{
+    position: absolute;
+    left: 450px;
+    top: 31px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+.About{
+    position: absolute;
+    left: 585px;
+    top: 31px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.Nav{
+  position: absolute;
+  text-decoration: none;
+  color: white;
+}
+
+.Nav:hover{
+  cursor: pointer;
+  color: red;
+}
+
+.Acc img{
+    position: absolute;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    left: 1190px;
+    top: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+  }
+
+  .Open-World h1{
+    color: white;
+    position: absolute;
+    left: 99px;
+    top: 150px;
+    font-size: 28px;
+    z-index: 18;
+  }
+
+  .Open-World img{
+    position: relative;
+    z-index: 18;
+    height: 350px;
+    width: 200px;
+    top: 200px;
+    left: 80px;
+  }

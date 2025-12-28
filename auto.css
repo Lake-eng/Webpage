@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+.red-x{
+    color: red;
+    text-decoration: none;
+}
+
+.Title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: black;
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+    color: white;
+    z-index: 10;
+}
+
+.Title h1{
+    position: absolute;
+    left: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.Title img{
+    position: absolute;
+    left: 10px;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+
+.Reviews{
+    position: absolute;
+    left: 300px;
+    top: 31px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  
+}
+
+
+.Games{
+    position: absolute;
+    left: 450px;
+    top: 31px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+.About{
+    position: absolute;
+    left: 585px;
+    top: 31px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.Nav{
+  position: absolute;
+  text-decoration: none;
+  color: white;
+}
+
+.Nav:hover{
+  cursor: pointer;
+  color: red;
+}
+
+.Acc img{
+    position: absolute;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    left: 1190px;
+    top: 10px;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+  }
+
+  .slider {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: 0;
+    
+  }
+
+  .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 100%;
+    
+    opacity: 0.7; 
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    box-sizing: border-box;
+    color: #fff;
+  }
+
+  .overlay h1 {
+    margin: 0 0 10px 0;
+    font-size: 3em;
+  }
+
+  .overlay p {
+    max-width: 400px;
+    font-size: 1.2em;
+  }
+
+  .next {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background: rgba(255,255,255,0.3);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 2em;
+    color: #fff;
+    transition: background 0.3s;
+  }
+
+  .next:hover {
+    background: rgba(255,255,255,0.6);
+  }
